@@ -26,3 +26,4 @@ else:
     else:
 
         print("Чёрный")
+
