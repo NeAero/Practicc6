@@ -1,4 +1,4 @@
-print("Каз")
+print("Казино")
 pocket = int(input("Введите номер кармана(0-36): "))
 
 if pocket < 0 or pocket > 36:
@@ -20,8 +20,9 @@ elif 19 <= pocket <= 28:
         print("Чёрный")
     else:
         print("Красный")
-else: # 29-36
+else:
     if pocket % 2 == 0:
         print("Красный")
     else:
+
         print("Чёрный")
